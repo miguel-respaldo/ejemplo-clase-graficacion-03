@@ -17,3 +17,4 @@ def suma():
 if __name__ == '__main__':
     suma()
     resta()
+    multiplicación()
