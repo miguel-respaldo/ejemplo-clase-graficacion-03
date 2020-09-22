@@ -19,6 +19,7 @@ def suma():
     print("La suma es:", num1 + num2)
 
 def menu():
+    print("Menu de opciones")
     return 2
 
 if __name__ == '__main__':
