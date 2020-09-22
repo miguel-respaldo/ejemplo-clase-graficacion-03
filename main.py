@@ -20,6 +20,8 @@ def suma():
 
 def menu():
     print("Menu de opciones")
+    print("Seleccione una opción")
+
     return 2
 
 if __name__ == '__main__':
