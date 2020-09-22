@@ -18,9 +18,16 @@ def suma():
     num2 = int(input("Dame otro numero: "))
     print("La suma es:", num1 + num2)
 
+def menu():
+    return 2
 
 if __name__ == '__main__':
-    suma()
-    resta()
-    multiplicación()
-    division()
+    opcion = menu()
+    if opcion == 1:
+        suma()
+    elif opcion == 2:
+        resta()
+    elif opcion == 3:
+        multiplicación()
+    elif opcion == 4:
+        division()
