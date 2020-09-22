@@ -29,6 +29,7 @@ def suma():
 def menu():
     print("Menu de opciones")
     print("Seleccione una opción")
+    print("1 Suma\n2 Resta\n3 Divicion\n 4 Divicion")
 
     return 2
 
