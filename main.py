@@ -6,9 +6,9 @@ def division():
 
 
 def multiplicación():
-    numero1 = int(input("Dame un numero: "))
-    numero2 = int(input("Dame otro numero: "))
-    print("La resta es:", numero1 * numero2)
+    num1 = int(input("Dame un numero: "))
+    num2 = int(input("Dame otro numero: "))
+    print("La resta es:", num1 * num2)
 
 
 
@@ -20,9 +20,9 @@ def resta():
 
 
 def suma():
-    num1 = int(input("Dame un numero: "))
-    num2 = int(input("Dame otro numero: "))
-    print("La suma es:", num1 + num2)
+    numero1 = int(input("Dame un numero: "))
+    numero2 = int(input("Dame otro numero: "))
+    print("La suma es:", numero1 + numero2)
 
 
 
