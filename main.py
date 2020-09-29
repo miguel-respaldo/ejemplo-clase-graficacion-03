@@ -20,8 +20,13 @@ def resta():
 
 
 def suma():
+<<<<<<< HEAD
     numero1 = int(input("Dame un numero: "))
     numero2 = int(input("Dame otro numero: "))
+=======
+    numero1 = int(input("Dame un número: "))
+    numero2 = int(input("Dame otro número: "))
+>>>>>>> parent of 03b48b6... jajaja ya te borre
     print("La suma es:", numero1 + numero2)
 
 
@@ -37,6 +42,10 @@ if __name__ == '__main__':
     opcion = menu()
     if opcion == 1:
         suma()
+<<<<<<< HEAD
+=======
+        suma()
+>>>>>>> parent of 03b48b6... jajaja ya te borre
     elif opcion == 2:
         resta()
     elif opcion == 3:
