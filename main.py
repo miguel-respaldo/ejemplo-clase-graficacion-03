@@ -20,8 +20,8 @@ def resta():
 
 
 def suma():
-    numero1 = int(input("Dame un numero: "))
-    numero2 = int(input("Dame otro numero: "))
+    numero1 = int(input("Dame un número: "))
+    numero2 = int(input("Dame otro número: "))
     print("La suma es:", numero1 + numero2)
 
 
