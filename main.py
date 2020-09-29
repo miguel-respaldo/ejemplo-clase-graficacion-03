@@ -37,6 +37,7 @@ if __name__ == '__main__':
     opcion = menu()
     if opcion == 1:
         suma()
+        suma()
     elif opcion == 2:
         resta()
     elif opcion == 3:
