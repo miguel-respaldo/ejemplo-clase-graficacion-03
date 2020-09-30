@@ -1,19 +1,19 @@
-def division():
+def division():#Function that make a division
     num1 = int(input("Dame un numero: "))
     num2 = int(input("Dame otro numero: "))
     print("La resta es:", num1 / num2)
 
-def multiplicación():
+def multiplicación():#Function that make a multiplication
     num1 = int(input("Dame un numero: "))
     num2 = int(input("Dame otro numero: "))
     print("La resta es:", num1 * num2)
 
-def resta():
+def resta():#Function that make a substraction
     numero1 = int(input("Dame un numero: "))
     numero2 = int(input("Dame otro numero: "))
     print("La resta es:", numero1 - numero2)
 
-def suma():
+def suma():#This step publish a sum
     numero1 = int(input("Dame un número: "))
     numero2 = int(input("Dame otro número: "))
     print("La suma es:", numero1 + numero2)
