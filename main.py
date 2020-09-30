@@ -13,12 +13,12 @@ def resta():#Function that make a substraction
     numero2 = int(input("Dame otro numero: "))
     print("La resta es:", numero1 - numero2)
 
-def suma():#This step publish a sum
+def suma():#Function that make a  a sum
     numero1 = int(input("Dame un número: "))
     numero2 = int(input("Dame otro número: "))
     print("La suma es:", numero1 + numero2)
 
-def menu():
+def menu():#Function that make a
     print("Menu de opciones")
     print("Seleccione una opción")
     print("1 Suma\n2 Resta\n3 Divicion\n 4 Divicion")
