@@ -27,13 +27,12 @@ def menu():
 
 if __name__ == '__main__':
     opcion = menu()
-    if opcion == 1:
+    if opcion == 1:#This step publish a sum
         suma()
         suma()
-    elif opcion == 2:
+    elif opcion == 2:#This step publish a substraction
         resta()
     elif opcion == 3:
-        multiplicación()
+        multiplicación()#This step publish multiplication
     elif opcion == 4:
-        division()
-#
+        division() #By last in this step finish whit a division
