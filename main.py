@@ -1,38 +1,14 @@
-def division():#Function that make a division
-    num1 = int(input("Dame un numero: "))
-    num2 = int(input("Dame otro numero: "))
-    print("La resta es:", num1 / num2)
+# This is a sample Python script.
 
-def multiplicación():#Function that make a multiplication
-    num1 = int(input("Dame un numero: "))
-    num2 = int(input("Dame otro numero: "))
-    print("La resta es:", num1 * num2)
+# Press Mayús+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-def resta():#Function that make a substraction
-    numero1 = int(input("Dame un numero: "))
-    numero2 = int(input("Dame otro numero: "))
-    print("La resta es:", numero1 - numero2)
 
-def suma():#Function that make a  a sum
-    numero1 = int(input("Dame un número: "))
-    numero2 = int(input("Dame otro número: "))
-    print("La suma es:", numero1 + numero2)
+def print_hi(name):
+    print(f'Mi nombre es {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-def menu():#Function that make a
-    print("Menu de opciones")
-    print("Seleccione una opción")
-    print("1 Suma\n2 Resta\n3 Divicion\n 4 Divicion")
-
-    return 2
 
 if __name__ == '__main__':
-    opcion = menu()
-    if opcion == 1:#This step publish a sum
-        suma()
-        suma()
-    elif opcion == 2:#This step publish a substraction
-        resta()
-    elif opcion == 3:
-        multiplicación()#This step publish multiplication
-    elif opcion == 4:
-        division() #By last in this step finish whit a division
+    print_hi('osvaldo lujan armenta')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
