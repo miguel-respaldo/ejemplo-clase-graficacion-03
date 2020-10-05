@@ -1,0 +1,6 @@
+def function_myName():
+    print("Jose marcelino Rodriguez Marquez.")
+
+
+if __name__ == '__main__':
+    function_myName()
