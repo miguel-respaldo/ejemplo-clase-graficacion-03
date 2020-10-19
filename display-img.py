@@ -7,7 +7,7 @@ Taken from : https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorial
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('../resources/lena.jpg',0)
+img = cv.imread('lena.jpg',0)
 
 #print(img)
 
