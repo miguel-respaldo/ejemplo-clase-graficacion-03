@@ -14,7 +14,7 @@ while(True):
     #Canny code acept parameters : Canny(image, threshold1, threshold2, edges=None, apertureSize=None, L2gradient=None):
 
     # Display the resulting frame
-    cv2.imshow('frame',canny)
+    cv2.imshow('frame',gray)#Return configuration
     if cv2.waitKey(1) & 0xFF == ord('q'):#if you press "q" exit of aplication
         break
 
